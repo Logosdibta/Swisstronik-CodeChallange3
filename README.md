@@ -54,16 +54,16 @@ npx hardhat run scripts/mint.js --network swisstronik
 
 xxx My Result xxx
 ```
+Name : LOGOS
+Symbol : LGS
+```
+```
 Token Contract :
 0xB0DFcbA004C21f30c7CfB7B35e56455440732ecB
 Tx Hash Mint :
 https://explorer-evm.testnet.swisstronik.com/tx/0xf8d4298e102cf08176b2fd98494d081f3321ac42a1113b79a9e51d878131dbda
 ```
 
-```
-Name : LOGOS
-Symbol : LGS
-```
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
