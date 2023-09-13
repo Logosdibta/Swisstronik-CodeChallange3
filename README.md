@@ -1,7 +1,15 @@
-# Swisstronik code challenge #3
+# Swisstronik code challenge
 
 ## Task details: Craft an ERC20 contract that mints at least 100 tokens with Hardhat (in 7 Steps)
 
+Deployed Contract
+```
+0x649f418470A681ddd505d6537f61Da58b58B7FD0
+```
+Tx Mint 100 Token
+```
+https://explorer-evm.testnet.swisstronik.com/tx/0x2b6d57d099a6acc568aeca443aba0a4c5a608c5d39403ab17fb862bf463df68a
+```
 1. Install Hardhat
 ```
 npm install --save-dev hardhat
@@ -51,19 +59,6 @@ npx hardhat run scripts/deploy.js --network swisstronik
 ```
 npx hardhat run scripts/mint.js --network swisstronik
 ```
-
-xxx My Result xxx
-```
-Name : LOGOS
-Symbol : LGS
-```
-```
-Token Contract :
-0xB0DFcbA004C21f30c7CfB7B35e56455440732ecB
-Tx Hash Mint :
-https://explorer-evm.testnet.swisstronik.com/tx/0xf8d4298e102cf08176b2fd98494d081f3321ac42a1113b79a9e51d878131dbda
-```
-
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
