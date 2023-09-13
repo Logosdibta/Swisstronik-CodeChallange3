@@ -21,7 +21,7 @@ const sendShieldedTransaction = async (signer, destination, data, value) => {
 
 async function main() {
   // Address of the deployed contract
-  const replace_contractAddress = "0xB0DFcbA004C21f30c7CfB7B35e56455440732ecB";
+  const replace_contractAddress = "0x649f418470A681ddd505d6537f61Da58b58B7FD0";
 
   // Get the signer (your account)
   const [signer] = await hre.ethers.getSigners();
@@ -32,7 +32,7 @@ async function main() {
 
   // Send a shielded transaction to execute a transaction in the contract
   const replace_functionName = "transfer";
-  const replace_functionArgs = ["0x000ab4A22e2668C7EF9A22aDf3b85e6F517B1136", "100"];
+  const replace_functionArgs = ["0x00000008Ba1350e10F55a208C0C449F7d07be5B0", "100"];
   const transaction = await sendShieldedTransaction(signer, replace_contractAddress, contract.interface.encodeFunctionData(replace_functionName, replace_functionArgs), 0);
 
   await transaction.wait();
